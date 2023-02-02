@@ -16,6 +16,6 @@ class Solution:
         for r in range(row-1, -1, -1):
             for c in range(col-1, -1, -1):
                 # min btw either go down from the element or go right
-                dp[r][c] = grid[r][c] + min(dp[r+1][c],dp[r][c+1])
+                dp[r][c] = grid[r][c] + min(dp[r+1][c], dp[r][c+1])
 
         return dp[0][0]

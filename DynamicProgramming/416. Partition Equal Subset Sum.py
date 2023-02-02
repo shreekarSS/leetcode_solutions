@@ -21,6 +21,6 @@ class Solution:
         for num in nums:
             for i in range(target, num-1,-1):
                 if dp[i-num]:# if i - num was previously achievable
-                    dp[i] = True # dp[i] is also achievable32
+                    dp[i] = True # dp[i] is also achievable
 
         return dp[target]
