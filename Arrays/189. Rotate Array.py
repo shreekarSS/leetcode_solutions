@@ -10,8 +10,6 @@ class Solution:
         n = len(nums)
         # if k is greater than len(nums)
         k%= n
-
-
         # call reverse three times
         # reverse whole array
         # reverse 0 to k-1
