@@ -17,4 +17,5 @@ class Solution:
 
         col  = left
         row = max(range(m), key=lambda x: mat[x][col])
-        return [row, col]
+        return [row, col
+                ]
